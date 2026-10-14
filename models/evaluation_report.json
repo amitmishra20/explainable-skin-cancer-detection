@@ -1,0 +1,192 @@
+{
+  "accuracy": 0.5939751146037983,
+  "sample_count": 1527,
+  "classes": [
+    "akiec",
+    "bcc",
+    "bkl",
+    "df",
+    "mel",
+    "nv",
+    "vasc"
+  ],
+  "classification_report": {
+    "akiec": {
+      "precision": 0.10096153846153846,
+      "recall": 0.875,
+      "f1-score": 0.1810344827586207,
+      "support": 48.0
+    },
+    "bcc": {
+      "precision": 0.2857142857142857,
+      "recall": 0.06060606060606061,
+      "f1-score": 0.1,
+      "support": 66.0
+    },
+    "bkl": {
+      "precision": 0.509090909090909,
+      "recall": 0.16279069767441862,
+      "f1-score": 0.24669603524229075,
+      "support": 172.0
+    },
+    "df": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 10.0
+    },
+    "mel": {
+      "precision": 0.4268292682926829,
+      "recall": 0.1881720430107527,
+      "f1-score": 0.26119402985074625,
+      "support": 186.0
+    },
+    "nv": {
+      "precision": 0.8752834467120182,
+      "recall": 0.7598425196850394,
+      "f1-score": 0.8134878819810326,
+      "support": 1016.0
+    },
+    "vasc": {
+      "precision": 0.40625,
+      "recall": 0.896551724137931,
+      "f1-score": 0.5591397849462365,
+      "support": 29.0
+    },
+    "accuracy": 0.5939751146037983,
+    "macro avg": {
+      "precision": 0.37201849261020487,
+      "recall": 0.4204232921591718,
+      "f1-score": 0.30879317353984664,
+      "support": 1527.0
+    },
+    "weighted avg": {
+      "precision": 0.7149485323043763,
+      "recall": 0.5939751146037983,
+      "f1-score": 0.6214945675458393,
+      "support": 1527.0
+    }
+  },
+  "sample_predictions": [
+    {
+      "image_id": "ISIC_0029176",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0029176.jpg",
+      "true_class": "bkl",
+      "predicted_class": "bkl",
+      "is_correct": true,
+      "confidence": 0.447196900844574
+    },
+    {
+      "image_id": "ISIC_0029068",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0029068.jpg",
+      "true_class": "bkl",
+      "predicted_class": "vasc",
+      "is_correct": false,
+      "confidence": 0.24438895285129547
+    },
+    {
+      "image_id": "ISIC_0029836",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_2\\ISIC_0029836.jpg",
+      "true_class": "bkl",
+      "predicted_class": "vasc",
+      "is_correct": false,
+      "confidence": 0.5447452664375305
+    },
+    {
+      "image_id": "ISIC_0032129",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_2\\ISIC_0032129.jpg",
+      "true_class": "bkl",
+      "predicted_class": "akiec",
+      "is_correct": false,
+      "confidence": 0.8113778829574585
+    },
+    {
+      "image_id": "ISIC_0027815",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0027815.jpg",
+      "true_class": "bkl",
+      "predicted_class": "bkl",
+      "is_correct": true,
+      "confidence": 0.7453741431236267
+    },
+    {
+      "image_id": "ISIC_0024324",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0024324.jpg",
+      "true_class": "bkl",
+      "predicted_class": "nv",
+      "is_correct": false,
+      "confidence": 0.425523042678833
+    },
+    {
+      "image_id": "ISIC_0029559",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_2\\ISIC_0029559.jpg",
+      "true_class": "bkl",
+      "predicted_class": "bkl",
+      "is_correct": true,
+      "confidence": 0.4878549873828888
+    },
+    {
+      "image_id": "ISIC_0025016",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0025016.jpg",
+      "true_class": "bkl",
+      "predicted_class": "akiec",
+      "is_correct": false,
+      "confidence": 0.8202843070030212
+    },
+    {
+      "image_id": "ISIC_0029147",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0029147.jpg",
+      "true_class": "bkl",
+      "predicted_class": "akiec",
+      "is_correct": false,
+      "confidence": 0.8705540895462036
+    },
+    {
+      "image_id": "ISIC_0027960",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0027960.jpg",
+      "true_class": "bkl",
+      "predicted_class": "akiec",
+      "is_correct": false,
+      "confidence": 0.8083032965660095
+    },
+    {
+      "image_id": "ISIC_0026955",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0026955.jpg",
+      "true_class": "bkl",
+      "predicted_class": "akiec",
+      "is_correct": false,
+      "confidence": 0.714968740940094
+    },
+    {
+      "image_id": "ISIC_0029288",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0029288.jpg",
+      "true_class": "bkl",
+      "predicted_class": "bkl",
+      "is_correct": true,
+      "confidence": 0.8169324398040771
+    },
+    {
+      "image_id": "ISIC_0031008",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_2\\ISIC_0031008.jpg",
+      "true_class": "bkl",
+      "predicted_class": "bkl",
+      "is_correct": true,
+      "confidence": 0.4980705678462982
+    },
+    {
+      "image_id": "ISIC_0030189",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_2\\ISIC_0030189.jpg",
+      "true_class": "bkl",
+      "predicted_class": "bkl",
+      "is_correct": true,
+      "confidence": 0.6187334656715393
+    },
+    {
+      "image_id": "ISIC_0026532",
+      "path": "D:\\4-1\\DL Project\\skin_cancer_demo_starter\\skin_cancer_demo\\data\\HAM10000\\HAM10000_images_part_1\\ISIC_0026532.jpg",
+      "true_class": "bkl",
+      "predicted_class": "akiec",
+      "is_correct": false,
+      "confidence": 0.605418860912323
+    }
+  ]
+}

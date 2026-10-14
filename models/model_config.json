@@ -1,0 +1,69 @@
+{
+  "architecture": "MobileNetV2",
+  "img_size": [
+    224,
+    224
+  ],
+  "canonical_classes": [
+    "akiec",
+    "bcc",
+    "bkl",
+    "df",
+    "mel",
+    "nv",
+    "vasc"
+  ],
+  "class_metadata": {
+    "akiec": {
+      "code": "akiec",
+      "name": "Actinic Keratosis / Bowen's Disease",
+      "category": "Precancerous / Early-stage Carcinoma",
+      "risk_level": "Moderate",
+      "description": "Sun-induced pre-malignant cutaneous lesion that can develop into invasive squamous cell carcinoma."
+    },
+    "bcc": {
+      "code": "bcc",
+      "name": "Basal Cell Carcinoma",
+      "category": "Malignant",
+      "risk_level": "High (Locally invasive)",
+      "description": "The most prevalent malignant skin neoplasm; slow-growing and destructive locally, rarely metastasizes."
+    },
+    "bkl": {
+      "code": "bkl",
+      "name": "Benign Keratosis-like Lesions",
+      "category": "Benign",
+      "risk_level": "Low (Harmless)",
+      "description": "Harmless skin growths including seborrheic keratoses, solar lentigines, and lichen-planus-like keratoses."
+    },
+    "df": {
+      "code": "df",
+      "name": "Dermatofibroma",
+      "category": "Benign",
+      "risk_level": "Low (Harmless)",
+      "description": "Benign fibrous histiocytoma presenting as a firm, hyperpigmented dermal nodule, typically on limbs."
+    },
+    "mel": {
+      "code": "mel",
+      "name": "Melanoma",
+      "category": "Malignant",
+      "risk_level": "Critical (High metastasis potential)",
+      "description": "Highly aggressive malignancy arising from melanocytes; rapid diagnosis and surgical excision are imperative."
+    },
+    "nv": {
+      "code": "nv",
+      "name": "Melanocytic Nevus",
+      "category": "Benign",
+      "risk_level": "Low (Common mole)",
+      "description": "Common benign proliferations of pigment-producing melanocytes; generally benign but monitored for changes."
+    },
+    "vasc": {
+      "code": "vasc",
+      "name": "Vascular Lesion",
+      "category": "Benign",
+      "risk_level": "Low (Harmless)",
+      "description": "Benign cutaneous vascular proliferations including cherry angiomas, angiokeratomas, and pyogenic granulomas."
+    }
+  },
+  "trained_epochs": 3,
+  "is_smoke_test": false
+}
